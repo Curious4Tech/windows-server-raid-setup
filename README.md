@@ -171,7 +171,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
    
 ![image](https://github.com/user-attachments/assets/824a1571-8a72-4ac0-86d0-168cda026bd8)
 
-   - Select all the disks for your pool.
+   - Select all the disks for your pool and click on **`Next`**.
 
 ![image](https://github.com/user-attachments/assets/cae6d405-ad79-404e-9468-f7c1b3c73ecf)
 
