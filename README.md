@@ -162,9 +162,11 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
 1. **Open Server Manager:**  
    - Go to **`File and Storage Services`** > **`Storage Pools`**.  
+   - Click **`Tasks`** > **`New Storage Pool`**.
+
+![image](https://github.com/user-attachments/assets/b8057412-d986-4d11-bc6e-bd9d5cb83f0b)
 
 2. **Create Storage Pool:**  
-   - Click **`Tasks`** > **`New Storage Pool`**.  
    - Provide a **`Pool Name`** and select the disks.  
    - Click **`Create`**.
 
