@@ -121,7 +121,9 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
    - Select one of the following options based on your RAID type:  
      - **`New Spanned Volume`** (RAID 0 - Striping)  
      - **`New Mirrored Volume`** (RAID 1 - Mirroring)  
-     - **`New RAID-5 Volume`** (RAID 5)  
+     - **`New RAID-5 Volume`** (RAID 5). As we have 03 disk avaible we will go with **`RAID 5`**  
+
+![image](https://github.com/user-attachments/assets/98b76d63-580d-4527-94f9-b032fc811e1b)
 
 3. **Follow the Wizard:**  
    - Select the disks to include.  
