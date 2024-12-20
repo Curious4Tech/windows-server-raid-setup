@@ -147,6 +147,14 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
 ![image](https://github.com/user-attachments/assets/880df453-d871-4036-a176-8571762de7a2)
 
+ - Your **`RAID-5`** has been created  and running smoothly.
+
+![image](https://github.com/user-attachments/assets/52b2ccae-70ef-4440-a8a3-b4adaba0a161)
+
+ - Now let's change the name of the RAID-5 volume from **`New Volume`** to **`RAID5-DEMO`**. Just a simple renaming.
+
+![image](https://github.com/user-attachments/assets/5bd345d0-cdc0-4877-8992-e5e00c76ec31)
+
 ---
 
 ## **Option 2: Setup RAID Using Storage Spaces**  
