@@ -137,7 +137,8 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
    - Format with **`NTFS`** or **`ReFS`**.
 
-![image](https://github.com/user-attachments/assets/9e05d89c-f945-4ca5-82de-53a25372cdaa)
+![image](https://github.com/user-attachments/assets/25087209-c195-4062-9217-d526bff689de)
+
 
    - Click **`Finish`**.
 
