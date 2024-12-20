@@ -217,24 +217,38 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
      
 ![image](https://github.com/user-attachments/assets/4e5cb4e0-927a-4233-89f1-29f0acf334c8)
 
- - Click on **`Close`** and also check **`Create a volume ...`**
+   - Click on **`Close`** and also check **`Create a volume ...`**
 
 ![image](https://github.com/user-attachments/assets/ded7cc3d-a2a0-4eeb-8c5f-cbe8ed32aacd)
 
- - Specify the **`size`**.
+   - Specify the **`size`**.
 
 ![image](https://github.com/user-attachments/assets/eb65ec48-5f08-4601-8b0b-206ea1dd15a6)
 
- - assign a letter to the driver (e;g: E)  and then click on **`Next`**.
+   - Assign a letter to the driver (e;g: E)  and then click on **`Next`**.
 
 ![image](https://github.com/user-attachments/assets/6de0e54a-ac73-4692-943b-6c55b2ce7ffa)
+
+   - Format with **`NTFS`** or **`ReFS`**. And also rename the **`Volume lable`** if you want (e;g: RAID5-DEMO)
+
+![image](https://github.com/user-attachments/assets/4a73a71e-1804-44ac-bda6-ec837b3c48cb)
+
+  - Click **`Create`**.
+
+![image](https://github.com/user-attachments/assets/9e8c15e4-da70-4597-bd99-814e46a8d768)
 
 ---
 
 ## **Verification and Testing**  
 
-- Open **`File Explorer`** and check the newly created RAID drive.  
-- Save test files to verify storage functionality.  
+- Open **`File Explorer`** and check the newly created RAID drive.
+
+![image](https://github.com/user-attachments/assets/787f826f-2403-435a-b3fc-b5896aa9f0ef)
+
+- Save test folders or files to verify storage functionality.
+
+![image](https://github.com/user-attachments/assets/d14745fb-48ff-4aec-83f9-f7a859bd5e80)
+
 - Simulate drive failure (if using RAID 1/5/10) by disconnecting one virtual disk and checking data integrity.
 
 ---
