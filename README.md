@@ -57,7 +57,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 4. **`Add a Hard Disk:`**  
    - Click **`Add...`** in the Hardware tab.
 
-![image](https://github.com/user-attachments/assets/56818da9-9b21-488c-b845-c90e04e831ec)
+![image](https://github.com/user-attachments/assets/7ead7146-0e2a-4416-9bda-292958f9b36d)
 
    - Choose **`Hard Disk`** and click **`Next`**.
 
