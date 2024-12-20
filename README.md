@@ -93,7 +93,9 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
    - Specify the **`Disk Size`**, **`Type`** (recommended: SCSI), and **`Provisioning`** (Thin/Thick).  
    - Click **`Save`**.  
 
-4. **`Repeat the Process:`** Add more disks as needed.
+4. **`Repeat the Process:`** Add more disks as needed. I have created **`03 disks`**.
+
+![image](https://github.com/user-attachments/assets/306282db-5b79-458d-aef0-30a42c981ed5)
 
 ---
 
