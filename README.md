@@ -75,7 +75,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
    ![image](https://github.com/user-attachments/assets/74a30a86-8af2-499b-baec-f520add39179)
 
-   - Rename it without changing the extension (e,g; **`Data_Store01.vmdk`**) and then click on **`Finish`**.
+   - Rename it without changing the extension (e,g; **`Data_Store01.vmdk`**) or let the default name and then click on **`Finish`**.
 
 ![image](https://github.com/user-attachments/assets/01bb8fe6-2fb0-4653-8eb4-c6c8ab7d115d)
 
