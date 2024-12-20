@@ -55,12 +55,30 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 2. **`Open VMware Workstation.`**  
 3. **`Select the VM:`** Right-click the VM and choose **`Settings`**.  
 4. **`Add a Hard Disk:`**  
-   - Click **`Add...`** in the Hardware tab.  
-   - Choose **`Hard Disk`** and click **`Next`**.  
-   - Select **`Create a New Virtual Dis`k** and click **`Next`**.  
-   - Choose the disk **`size`** and **`type`** (recommended: SCSI).  
-   - Select **`Store as a single file`** or **`Split into multiple files`**.  
-   - Click **`Finish`**.  
+   - Click **`Add...`** in the Hardware tab.
+
+![image](https://github.com/user-attachments/assets/56818da9-9b21-488c-b845-c90e04e831ec)
+
+   - Choose **`Hard Disk`** and click **`Next`**.
+
+![image](https://github.com/user-attachments/assets/6992937a-b1aa-4aa1-a526-52f0af4136e7)
+
+   - Choose the disk **`type`** (recommended: SCSI).
+
+   ![image](https://github.com/user-attachments/assets/ce362dab-6aa2-463c-adc1-b7601937da7f)
+   
+   - Select **`Create a New Virtual Disk`** and click **`Next`**.  
+ 
+ ![image](https://github.com/user-attachments/assets/e575c447-f79f-4845-a89d-645eaded1a03)
+
+   - Select **`Store as a single file`** or **`Split into multiple files`** and **`size`**. Click on **`Next`**. 
+
+   ![image](https://github.com/user-attachments/assets/74a30a86-8af2-499b-baec-f520add39179)
+
+   - Rename it without changing the extension (e,g; **`Data_Store01.mvdk`**) and then click on **`Finish`**.
+
+![image](https://github.com/user-attachments/assets/01bb8fe6-2fb0-4653-8eb4-c6c8ab7d115d)
+
 
 5. **`Repeat the Process:`** Add additional virtual hard disks as needed.  
 
