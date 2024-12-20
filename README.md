@@ -90,7 +90,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 1. **`Log in to VMware ESXi Web Interface.`**  
 2. **`Select the VM:`** Click **`Virtual Machines`** and choose the target VM.  
 3. **`Edit VM Settings:`**  
-   - Click **`Actions** > **Edit Settings`**.  
+   - Click **`Actions`** > **`Edit Settings`**.  
    - Click **`Add New Device`** > **`New Hard Disk`**.  
    - Specify the **`Disk Size`**, **`Type`** (recommended: SCSI), and **`Provisioning`** (Thin/Thick).  
    - Click **`Save`**.  
@@ -104,17 +104,26 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 1. **Open Disk Management:**  
    - Press **`Windows + R`**, type **`diskmgmt.msc`**, and press **`Enter`**.  
 
-2. **Initialize Disks:**  
-   - Right-click each newly added disk and select **`Online`**.  
+![image](https://github.com/user-attachments/assets/e4a3830e-d6b4-4aae-b78e-e3f9f9fb6a17)
 
-3. **Create RAID Volume:**  
+2. **Initialize Disks:**
+
+  - Select all newly added disks and **`GPT`**, then click on **`OK`**
+
+![image](https://github.com/user-attachments/assets/26646c89-18ea-4be0-80e2-238433057cdf)
+
+   -They are all  **`Online`** now.  
+
+![image](https://github.com/user-attachments/assets/addd965c-bf90-4570-b22a-76e66313c3b4)
+
+2. **Create RAID Volume:**  
    - Right-click one of the initialized disks.  
    - Select one of the following options based on your RAID type:  
      - **`New Spanned Volume`** (RAID 0 - Striping)  
      - **`New Mirrored Volume`** (RAID 1 - Mirroring)  
      - **`New RAID-5 Volume`** (RAID 5)  
 
-4. **Follow the Wizard:**  
+3. **Follow the Wizard:**  
    - Select the disks to include.  
    - Assign a drive letter.  
    - Format with **`NTFS`** or **`ReFS`**.  
