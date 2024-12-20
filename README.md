@@ -188,20 +188,46 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
  ![image](https://github.com/user-attachments/assets/ed454f3d-1e8b-4de8-b4d4-c73d3435e6d2)
 
-   - Select the pool created earlier and then click on **`OK`**.
+   - Select the pool created earlier and then click on **`OK`**. A new window will open, follow the wizard to configure the new virtual disk.
 
 ![image](https://github.com/user-attachments/assets/125ad665-02ee-43c4-aa99-01673a7cf21f)
 
+   - Give a name to the virtual disk (e,g: RAID5-DEMO) and then click on **`Next`**.
+
+![image](https://github.com/user-attachments/assets/a0a6a31a-d431-412a-a329-ea16710bfdd8)
+
    - Choose a RAID type:  
      - **`Simple (RAID 0)`**  
-     - **`Two-way Mirror (RAID 1)`**  
-     - **`Three-way Mirror (Advanced Redundancy)`**  
+     - **`Mirror (RAID 1)`**  
      - **`Parity (RAID 5)`**  
 
+![image](https://github.com/user-attachments/assets/f5285413-298a-43b3-aef0-daccba332b40)
+
+ - Choose fixed for provisioning and click on **`Next`**.
+
+![image](https://github.com/user-attachments/assets/1af8d6cc-58e4-4880-832c-1df757d972e7)
+
 3. **Configure Disk Settings:**  
-   - Set the **`Size`** and **`Drive Letter`**.  
-   - Format the disk as **`NTFS`** or **`ReFS`**.  
+   - Set the **`Size`**. Go with the maximum for the sake fo this demo.
+
+![image](https://github.com/user-attachments/assets/27409c9b-4a82-452d-ab05-14c30d1d958a)
+
+  
    - Click **`Create`**.
+     
+![image](https://github.com/user-attachments/assets/4e5cb4e0-927a-4233-89f1-29f0acf334c8)
+
+ - Click on **`Close`** and also check **`Create a volume ...`**
+
+![image](https://github.com/user-attachments/assets/ded7cc3d-a2a0-4eeb-8c5f-cbe8ed32aacd)
+
+ - Specify the **`size`**.
+
+![image](https://github.com/user-attachments/assets/eb65ec48-5f08-4601-8b0b-206ea1dd15a6)
+
+ - assign a letter to the driver (e;g: E)  and then click on **`Next`**.
+
+![image](https://github.com/user-attachments/assets/6de0e54a-ac73-4692-943b-6c55b2ce7ffa)
 
 ---
 
