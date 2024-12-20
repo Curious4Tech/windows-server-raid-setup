@@ -126,8 +126,15 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 ![image](https://github.com/user-attachments/assets/98b76d63-580d-4527-94f9-b032fc811e1b)
 
 3. **Follow the Wizard:**  
-   - Select the disks to include.  
-   - Assign a drive letter.  
+   - Select the disk to include and click on **`Add`** to all the disks.
+
+![image](https://github.com/user-attachments/assets/e9f1f5b5-5bb4-48fd-baab-6c9c0c680af5)
+
+   - Assign a drive letter and click on **`Next`**.
+
+![image](https://github.com/user-attachments/assets/9b178b53-2f71-4235-9da9-bac0f6d9dd2b)
+
+
    - Format with **`NTFS`** or **`ReFS`**.  
    - Click **`Finish`**.
 
