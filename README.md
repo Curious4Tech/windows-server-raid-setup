@@ -4,7 +4,7 @@ This repository provides a comprehensive technical guide on setting up RAID (Red
 
 # **Setting Up RAID on Windows Server**  
 
-This guide explains how to set up RAID (Redundant Array of Independent Disks) on Windows Server using **Disk Management** and **Storage Spaces**. The steps cover RAID types including RAID 0, 1, 5, and 10.
+This guide explains how to set up RAID (Redundant Array of Independent Disks) on Windows Server using **Disk Management** and **Storage Spaces**. The steps cover RAID types including **`RAID 0, 1, 5, and 10`**.
 
 ---
 
