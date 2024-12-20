@@ -71,7 +71,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
  
  ![image](https://github.com/user-attachments/assets/e575c447-f79f-4845-a89d-645eaded1a03)
 
-   - Select **`Store as a single file`** or **`Split into multiple files`** and **`size`**. Click on **`Next`**. 
+   - Select **`Store as a single file`** or **`Split into multiple files`** and specify the **`size`**. Click on **`Next`**. 
 
    ![image](https://github.com/user-attachments/assets/74a30a86-8af2-499b-baec-f520add39179)
 
