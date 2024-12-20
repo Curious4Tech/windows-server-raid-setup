@@ -184,15 +184,21 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 ![image](https://github.com/user-attachments/assets/afd5950e-4730-47f4-a553-4c858a028b02)
 
 3. **Create a Virtual Disk:**  
-   - In **`Storage Pools`**, click **`Tasks`** > **`New Virtual Disk`**.  
-   - Select the pool created earlier.  
+   - In **`Storage Pools`**, click **`Tasks`** > **`New Virtual Disk`**.
+
+ ![image](https://github.com/user-attachments/assets/ed454f3d-1e8b-4de8-b4d4-c73d3435e6d2)
+
+   - Select the pool created earlier and then click on **`OK`**.
+
+![image](https://github.com/user-attachments/assets/125ad665-02ee-43c4-aa99-01673a7cf21f)
+
    - Choose a RAID type:  
      - **`Simple (RAID 0)`**  
      - **`Two-way Mirror (RAID 1)`**  
      - **`Three-way Mirror (Advanced Redundancy)`**  
      - **`Parity (RAID 5)`**  
 
-4. **Configure Disk Settings:**  
+3. **Configure Disk Settings:**  
    - Set the **`Size`** and **`Drive Letter`**.  
    - Format the disk as **`NTFS`** or **`ReFS`**.  
    - Click **`Create`**.
