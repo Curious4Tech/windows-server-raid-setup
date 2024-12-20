@@ -32,7 +32,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
 - **`VMware Workstation/ESXi`** installed.  
 - **`Windows Server 2016/2019/2022`** or later installed as a virtual machine.  
-- **`At least 2 virtual or physical hard disks*`* (depending on RAID type).  
+- **`At least 2 virtual or physical hard disks`** (depending on RAID type).  
 - **`Administrator permissions`**.
 
 ---
