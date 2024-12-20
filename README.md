@@ -82,7 +82,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
 5. **`Repeat the Process:`** Add additional virtual hard disks as needed. I have created **`03 disks`**.
 
-![image](https://github.com/user-attachments/assets/306282db-5b79-458d-aef0-30a42c981ed5)
+![image](https://github.com/user-attachments/assets/04305a63-8c79-4a3c-b234-044b4047e11c)
 
 ---
 
