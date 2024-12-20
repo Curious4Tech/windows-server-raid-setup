@@ -153,7 +153,7 @@ This guide explains how to set up RAID on Windows Server using **Disk Management
 
  - Now let's change the name of the RAID-5 volume from **`New Volume`** to **`RAID5-DEMO`**. Just a simple renaming.
 
-![image](https://github.com/user-attachments/assets/5bd345d0-cdc0-4877-8992-e5e00c76ec31)
+![image](https://github.com/user-attachments/assets/37510bab-e150-4398-87f7-faf2a7c79f61)
 
 ---
 
